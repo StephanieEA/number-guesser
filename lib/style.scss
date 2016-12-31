@@ -1,10 +1,13 @@
-$wtf: #9590A8;
-$ridiculous: cursive;
+$appBackground: papayawhip;
+$buttoncColor: maroon;
+$buttonFont: cursive;
 
 body {
-  background: $wtf;
+  background: $appBackground;
 }
 
-.hello-world {
-  font-family: $ridiculous;
+button {
+  font-family: $buttonFont;
+  background: $buttoncColor;
+  color: lightgrey;
 }
