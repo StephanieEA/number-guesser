@@ -1,13 +1,55 @@
-$appBackground: papayawhip;
-$buttoncColor: maroon;
-$buttonFont: cursive;
+$topBackground: #404041;
+$buttonColor: #929497;
+$buttonFontColor: #FFFFFF;
+$disabledColor: #D0D2D3;
+$popColor: #EB008B;
+$mainFont: sans-serif;
 
 body {
-  background: $appBackground;
+  text-align: center;
+  font-family: $mainFont;
+  color: $topBackground;
+}
+
+header {
+  background: $topBackground;
+  color: #E6E7E8;
+  font-size: 50px;
+  font-weight: 100;
+  margin-bottom: 5px;
+  padding: 20px;
+}
+
+span {
+  color: #ED458B;
+  font-weight: 800;
 }
 
 button {
-  font-family: $buttonFont;
-  background: $buttoncColor;
-  color: lightgrey;
+  background: $buttonColor;
+  border-radius: 25px;
+  border: none;
+  color: white;
+  margin: 10px;
+  padding: 10px 50px;
+}
+
+button:disabled {
+  background: $disabledColor;
+}
+
+button:hover {
+  background: $popColor;
+}
+
+input {
+  color: $topBackground;
+  font-size: 20px;
+  padding: 5px;
+  width: 360px;
+  margin: 10px;
+}
+
+.range {
+  width: 128px;
 }
